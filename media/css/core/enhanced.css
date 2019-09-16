@@ -1,0 +1,306 @@
+/* General enhancements only if media queries supported 
+======================================================================
+====================================================================== */
+
+/* Headings & Titles
+---------------------------------------------- */
+
+/* Global Wrappers
+---------------------------------------------- */
+
+/* Headers - Navigations - Footers 
+---------------------------------------------- */
+
+/* Global Menus
+---------------------------------------------- */
+
+/* Custom Content Structure
+---------------------------------------------- */
+
+    /* Feature and Promos
+    ------------------------ */
+
+    /* UI Helpers
+    ------------------------ */
+
+    /* Gallery
+    ------------------------ */
+
+
+
+
+/* VIEWPORT SETUP
+---------------------------------------------- */
+@media only screen{
+
+    /* VIEWPORT SETUP
+    ---------------------------------------------- */
+    @-webkit-viewport   { width: device-width; }
+    @-moz-viewport      { width: device-width; }
+    @-ms-viewport       { width: device-width; }
+    @-o-viewport        { width: device-width; }
+    @viewport           { width: device-width; }
+}
+
+@media (min-width: 71.25em) {
+
+    .primary-feature{
+        border-bottom: 0 none;
+    }
+
+    .img--isMainWrapper{
+        float: left;
+        margin-right: 3%;
+        width: 60%;
+    }
+
+    .feature-body--main{
+        padding-top: 3em;
+        float: left;
+        width: 35%;
+    }
+
+}
+
+/* GLOBALS -- min width 1280px ++
+---------------------------------------------- */
+@media (min-width: 80em) {
+
+    .fluid, .site-wrapper{ max-width: 95%; }
+
+}
+
+
+/* GLOBALS -- min width 1440px ++
+---------------------------------------------- */
+@media (min-width: 90em) {
+
+    .fluid, .site-wrapper{ max-width: 90%; }
+
+}
+
+/* GLOBALS -- min width 1600px ++
+---------------------------------------------- */
+@media (min-width: 100em) {
+    
+    html { font-size: 1.05em; }
+
+}
+
+
+/* GLOBALS -- min width 2100px ++
+---------------------------------------------- */
+@media (min-width: 131.25em) {
+
+    html { font-size: 1.15rem; }
+    .fluid, .site-wrapper{ max-width: 85%; }
+
+}
+
+
+/* GLOBALS -- max width 1040px ++
+---------------------------------------------- */
+@media (max-width: 65em) {
+
+/* Headings & Titles
+---------------------------------------------- */
+    .sizes-S    { font-size: 20px; }
+    
+}
+
+
+/* GLOBALS -- max width 980px ++
+---------------------------------------------- */
+@media (max-width: 61.25em) {
+
+    .feature-list{
+        margin-bottom: 1em;
+        }
+
+    .feature-list .feature{
+        margin: 5px 0 1.375em 0;
+        width: 48%;
+        }
+    .feature-list .is--promo:nth-of-type(odd){
+        /*float: left;*/
+        clear: both;
+        }
+    .feature-list .is--promo:nth-of-type(even){
+        float: right;
+        clear: right;
+        }
+
+}
+
+
+/* MQ 820- tablets & small screens
+================================================================================ */
+@media (max-width:55em){
+
+/* Headings & Titles
+---------------------------------------------- */
+    .sizes-S    { font-size: 18px; margin-bottom: .5em; }
+
+
+/* Global Wrappers
+---------------------------------------------- */
+    .fluid , .site-wrapper {
+        max-width: 100%;
+        }
+
+    .tagline .cc{ font-size: 20px; }
+    .tagline .mailme{ font-size: 16px; }
+
+}
+
+
+
+/* MQ 768- tablets & small screens
+================================================================================ */
+@media (max-width: 48em) { /* 768px */
+
+/* Headers - Navigations - Footers
+---------------------------------------------- */
+    .site-footer{
+        padding-top: .6em;
+        padding-bottom: .6em;
+        margin-top: 1em;
+        }
+    
+}
+
+
+
+/* MQ 600- tablets & small screens
+================================================================================ */
+@media (max-width: 37.5em) { /* 600PX */
+
+
+/* Global Wrappers
+---------------------------------------------- */
+    .region{ margin-bottom: 2em; }
+
+    .page-body{ padding-top: 7em; }
+
+
+/* Headers - Navigations - Footers
+---------------------------------------------- */
+
+    .global-header{ padding: 1.1em 0; }
+
+    .brand-logo { height: 39px; width: 250px; }
+    .brand {
+        height: 39px;
+        width: 250px;
+        }
+
+    .tagline{
+        font-family: 'light', 'HelveticaNeue', Arial, Verdana, sans-serif;
+        }
+    .tagline .cc{ font-size: 18px; }
+    .tagline .mailme{ font-size: 16px; }
+
+    .is-sticky .tagline{ display: none; }
+
+
+/* Custom Content Structure
+---------------------------------------------- */
+
+    /* Feature and Promos
+    ------------------------ */
+
+    .feature-list .feature {
+        margin-bottom: 1em;
+        }
+    .feature{ padding: 0; }
+
+}
+
+
+
+/* MQ 480- small screens
+================================================================================ */
+@media (max-width: 30em) { /* 480PX */
+
+/* Headings & Titles
+---------------------------------------------- */
+    .sizes-S    { font-size: 16px; font-size: 1rem; }
+
+
+/* Global Wrappers
+---------------------------------------------- */
+    .page-body{ padding-top: 5em; }
+
+
+/* Headers - Navigations - Footers
+---------------------------------------------- */
+    .global-header{ padding: .8em 0; }
+
+    .brand-logo { height: 25px; width: 160px; }
+    .brand {
+        height: 25px;
+        width: 160px;
+        display: block;
+        }
+
+    .tagline .cc{ font-size: 14px; }
+    .tagline .mailme{ font-size: 14px; }
+
+
+/* Custom Content Structure
+---------------------------------------------- */
+
+    /* Feature and Promos
+    ------------------------ */
+    .feature-list .feature{
+        border-bottom: 1px dotted #aaa;
+        float: none;
+        margin: 0 0 1.5em 0;
+        width: 100%;
+        }
+    .feature-list .feature:last-of-type{
+        border-bottom: 0 none;
+        margin: 0 0 .5em 0;
+        }
+
+    /* the feature */
+    .feature{
+        padding-bottom:.625em;
+        }
+        .list-of-features .sizes-SM{
+            margin-bottom: 0;
+            padding: .2em;
+            }
+
+    .promo-blurb{ font-size: 12px; }
+
+}
+
+
+/* MQ 380- small screens
+================================================================================ */
+@media (max-width: 23.75em) { /* 380PX */
+
+/* Headings & Titles
+---------------------------------------------- */
+    .sizes-LG   { font-size: 22px; }
+    .sizes-M    { font-size: 22px; }
+    .sizes-M3   { font-size: 20px; }
+    .sizes-S    { margin-bottom: .5em; }
+
+
+/* Headers - Navigations - Footers
+---------------------------------------------- */
+    
+    .tagline .cc{ display: none; }
+    .tagline .mailme{ display: inline-block; margin-top: .3em; }
+
+    .is-sticky .tagline{ display: block; }
+
+    .site-footer{ padding-top: .5em; padding-bottom: .5em; }
+
+}
+
+
+
+

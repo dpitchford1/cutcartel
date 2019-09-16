@@ -1,0 +1,272 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+
+
+/* --------------------------------------------------------
+Title:  kwest.tv
+Author: Dylan Pitchford
+Date:   March 2015 
+-------------------------------------------------------- */
+
+/* --------------------------------------------------------
+FILE INFO
+Last updated:   2015/015/02
+Browsers:   simple normalize 
+-------------------------------------------------------- */
+
+/* --------------------------------------------------------
+LEGEND
+
+COLOUR REFERENCES
+BODY BG:  #FFF
+BODY FONT:  "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif
+BODY COLOR: #333
+LINKS:    #666 -- default link colour
+LINK:HOVER: #333
+HEADINGS & TITLES: #333, #666, #999
+  - Section Headings: 
+  - Content Titles: 
+
+CALLOUT RED:  #940000
+
+
+BG IMAGES == most images have been converted to base64, but if need be, can be found in the IE stylesheet.
+-------------------------------------------------------- */
+
+/* In this file:
+
+  @@1.1  Font Embed
+  1.2  Browser setup / nomalize
+     1.2.1 html5 structure setup
+  1.3  Document Setup
+  1.4  General Typography
+  1.5  Headings & Titles
+     1.5.1 Global setup
+     1.5.2 Specific Additions
+  1.6  Links & Cursors
+  1.7  Images, Media & Embedded content
+  1.8  Lists
+  1.9  General
+  2.0  COMMON HELPER CLASSES
+  
+*/
+
+
+/* 1.2 Browser setup / nomalize
+======================================================================
+====================================================================== */
+
+    body, iframe, fieldset, form, legend{ margin:0; padding:0; }
+
+    /* Html5 structure
+    ---------------------------------------------- */
+    /*
+    * Corrects `block` display not defined in IE 8/9.
+    */
+    article, aside, details, figcaption, figure, footer, header, menu, nav, section, main{ display:block; }
+
+    div, fieldset, form, article, aside, footer, header, main, nav, section, summary, ul, ol, li, dl, dt, dd, hr, table, thead, tbody, tr, td, p{
+        -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+        }
+
+  
+/* 1.3 Document setup
+======================================================================
+====================================================================== */
+
+    html{
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 1em;
+        }
+    body{  
+        line-height: 1.5;
+        min-height: 100%;
+        z-index: 0;
+        }
+
+
+/* 1.4 General Typography
+======================================================================
+====================================================================== */
+
+    /* Addresses `h1` font sizes within `section` and `article` in Firefox 4+, Safari 5, and Chrome. */
+    h1 { font-size: 2em; }
+
+    /* shared type styles */
+    address, caption, cite      { font-style: normal; font-weight: normal; font-size: 12px; font-size: .75rem; text-transform: none; vertical-align: middle; }
+    /*abbr, acronym               { font-size: 85%; text-transform: uppercase; letter-spacing: .1em; }
+    abbr[title], acronym[title], dfn[title]   { border-bottom: 1px dotted black; cursor: help; }*/
+    sup, sub        { font-size: 75%; line-height: 0; position: relative; }
+    sup             { vertical-align: super; top: -0.3125em; }
+    sub             { vertical-align: sub; bottom: -0.25em; }
+    caption, cite, dfn, em, i     { font-style: italic; }
+    b, strong, th, thead, legend  { font-weight: bold; }
+    p     { margin-top: 0; word-spacing: 0.125em; }
+    i, em { }
+
+    code{
+        font-family: "Courier New", Courier, monospace, sans-serif;
+        text-align: left;
+        }
+    pre, code {
+        color: #777;
+        }
+    pre {
+        padding: 1rem 0.5em 0.3em 0.7em;
+        border-left: 11px solid #888;
+        background-color: #eee;
+        margin: 1.7em 0 1.7em 0.3em;
+        overflow: auto;
+        width: 93%;
+        white-space: pre-wrap;
+        }
+
+    /*q { quotes: "\201C" "\201D" "\2018" "\2019"; }*/
+
+    /* blockquotes */
+    blockquote{ 
+        font-size:18px; font-size:1.125rem;
+        line-height:1.3; 
+        margin:0.6667em 0; 
+        padding:0 2.2222em 0.6667em 0; /* 40px 12px */
+        float:left; 
+        width:33%; 
+        }
+    blockquote p{ margin-top:0.3333em; margin-bottom:0.6667em; }
+
+
+/* 1.5 Headings & Titles 
+======================================================================
+====================================================================== */
+
+    /* 1.5.1 Global setup
+    ---------------------------------------------- */
+    h1, h2, h3, h4, h5, h6{ margin-top: 0; font-weight: normal; }
+
+    /*.wfl    { font-family: 'light', 'Helvetica', Arial, sans-serif; }
+    .wfr    { font-family: 'regular', 'Helvetica', Arial, sans-serif; }
+    .wfsb   { font-family: 'semibold', 'Helvetica', Arial, sans-serif; }*/
+    /*.wfb    { font-family: $font-bold; font-weight: normal; margin-top: 0; }
+    .wfeb  { font-family: $font-extrabold; font-weight: normal; margin-top: 0; }*/
+
+    /* Primary Heading selectors setup 
+    ---------------------------------------------- */
+    /*.h-xb   { font-family: $font-extrabold; letter-spacing: -1px; }*/
+    /*.h-b    { font-family: 'bold', 'Helvetica', Arial, sans-serif;  }
+    .h-sb   { font-family: 'semibold', 'Helvetica', Arial, sans-serif; }
+    .h-r    { font-family: 'regular', 'Helvetica', Arial, sans-serif; letter-spacing: -1px; }
+    .h-lgt  { font-family: 'light', 'Helvetica', Arial, sans-serif; letter-spacing: -1px; }
+
+    .h-reverse{
+        color: white;
+        }
+    .pushed{ margin-left: 1%; }*/
+
+    /* Heading sizes setup
+    ---------------------------------------------- */
+    .sizes-XLG      { font-size: 42px; }
+    .sizes-LG       { font-size: 36px; margin-bottom: .7em; }
+    .sizes-L        { font-size: 34px; margin-bottom: .5em; }
+
+    .sizes-M        { font-size: 30px; line-height: normal; margin-bottom: .3em; }
+    .sizes-M2       { font-size: 24px; }
+    .sizes-M3       { font-size: 24px; line-height: 1.1; margin-bottom: .3em; }
+
+    .sizes-S        { font-size: 22px; line-height: 1.1; margin-bottom: .9em; }
+    .sizes-SM       { font-size: 20px; line-height: 1.1; margin-bottom: .7em; }
+    .sizes-SM-alt   { font-size: 20px; line-height: normal; color: red; }
+    .sizes-XSM      { font-size: 18px; line-height: 1.1; margin-bottom: .7em; }
+
+
+    /* Heading Styling modifiers and helpers
+    ---------------------------------------------- */
+    /* center and uppercase */
+    .uc-center{
+        text-transform: uppercase;
+        text-align: center;
+        }
+
+    /* just uppercase */
+    .uc{ text-transform: uppercase; }
+
+    /* with an underline */
+    /*.w-ul{ border-bottom: 1px solid #f1f1f1; padding-bottom: .2em; padding-left: .3em; margin-bottom: 1em; }*/
+
+    /* extra large margin bottom */
+    .xlg-m{ margin-bottom: 45px; }
+
+    /* large margin bottom */
+    .lg-m{ margin-bottom: 30px; }
+
+    /* medium margin bottom */
+    .med-m{ margin-bottom: 15px; }
+
+
+/* 1.6 Links & Cursors
+======================================================================
+====================================================================== */
+
+    /* Addresses `outline` inconsistency between Chrome and other browsers. */
+    a:focus {
+        outline: thin dotted;
+        }
+    
+    /* Improves readability when focused and also mouse hovered in all browsers. */
+    /*a:active, a:hover {
+        outline: 0;
+        }*/
+    
+    /* cursors */
+    a, label, select, .pointer, button, .button, html input[type="button"], #submit, .submit, input[type="reset"], input[type="submit"]{ cursor:pointer; }
+
+
+
+/* 1.7 Images, Media & Embedded content 
+======================================================================
+====================================================================== */
+
+    /* Removes border when inside `a` element in IE 8/9. */
+    img{ border: 0; color: #cd6415; height: auto; vertical-align: top; width: 100%; max-width: 100%; /* Give it some text styles to offset alt text */ }
+    
+    /* Corrects overflow displayed oddly in IE 9. */
+    svg:not(:root) { overflow: hidden; }
+    
+    figure{ margin:0 0 .9375em; overflow: hidden; padding:0; }
+    figcaption{
+        font-size:14px; font-size:.875rem;
+        font-weight:normal;
+        margin-bottom: 1.5625em;
+        overflow: hidden;
+        }
+    object, embed, video{ max-width:100%; height:auto; } /* flash & video */
+
+
+/* 1.9 Lists
+======================================================================
+====================================================================== */
+
+    ul, ol, dl      { margin-top:0; margin-bottom:1.8em; }
+    ul              { padding:0; margin-left:35px; list-style-type:disc; }
+    ul li, ol li    { margin-bottom:1em; }
+    ol              { padding:0; margin-left:35px; list-style-type:decimal; list-style-position:outside; }
+    
+    /* nested lists */
+    ul ul, ul ol, ol ol, ol ul  { margin-bottom:0; padding-left:25px; }
+
+    /*definition lists*/
+    dl dd           { margin:0 0 0.3125em; }
+    dialog dd       { margin-bottom:.5em; line-height:normal; }
+    ul dl, ol dl    { margin:0 0 0 .625em; }
+
+
+/* 1.10  Tables
+======================================================================
+====================================================================== */
+    
+    table           { border-collapse:collapse; border-spacing:0; margin-bottom:.625em; }
+    th summary      { font-weight:normal; margin:0 0 .625em 0; }
+    td              { padding:0 10px .625em 0; }
+
+
+
+
+
